@@ -1,0 +1,174 @@
+*,
+*:before
+*:after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    padding: 0 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 35px 0;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header .container {
+    overflow: hidden;
+}
+
+.logo_holder {
+    float: left;
+}
+
+.nav_holder {
+    float: right;
+}
+
+.nav {
+    float: left;
+}
+
+.nav_list,
+.btn_list,
+.hero_btn_list {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.nav_list {
+    margin-right: 45px;
+    margin-left: -10px;
+    padding: 10px 0;
+}
+
+.btn_list {
+    float: left;
+    margin-right: -7px;
+}
+
+.nav_item,
+.btn_item {
+    display: inline-block;
+}
+
+.nav_item {
+    padding: 0 10px;
+}
+
+.btn_item {
+    margin: 0 7px;
+}
+
+.nav_link {
+    font-weight: 400;
+    font-size: 14px;
+    color:#2F281E;
+    text-decoration: none;
+}
+
+.btn_white {
+    font-weight: 600;
+    line-height: 24px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.btn {
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    background: #FF9900;
+    padding: 11px 25px;
+}
+
+.hero_section .container {
+    overflow: hidden;
+}
+
+.hero_column {
+    float: left;
+    width: 50%;
+}
+
+.hero_title {
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+.text_holder {
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    margin-bottom: 45px;
+}
+
+.hero_btn_list {
+    margin: 0 -15px;
+}
+
+.hero_btn_list li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.btn_start {
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    background: #FF9900;
+    padding: 11px 25px;
+}
+
+.btn_watch_video {
+    font-weight: 600;
+    line-height: 24px;
+    color: #FF9900;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 13px solid #FF9900;
+    display: inline-block;
+    margin-bottom: -4px;
+    padding-left: 4px;
+}
