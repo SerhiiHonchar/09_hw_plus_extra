@@ -9,7 +9,8 @@ img {
     max-width: 100%;
 }
 
-h1 {
+h1,
+h2 {
     margin: 0;
 }
 
@@ -21,6 +22,14 @@ body {
     padding: 0 ;
     font-family: 'Poppins', sans-serif;
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
 
 .header {
     padding: 35px 0;
@@ -35,7 +44,9 @@ body {
 }
 
 .header .container {
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .logo_holder {
@@ -43,7 +54,10 @@ body {
 }
 
 .nav_holder {
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .nav {
@@ -112,6 +126,8 @@ body {
     padding: 11px 25px;
 }
 
+/*hero section*/
+
 .hero_section .container {
     overflow: hidden;
 }
@@ -127,6 +143,7 @@ body {
     color: #2F281E;
     margin-bottom: 30px;
     padding-top: 60px;
+    letter-spacing: 1px;
 }
 
 .text_holder {
@@ -134,6 +151,9 @@ body {
     line-height: 28px;
     color: #544837;
     margin-bottom: 45px;
+    letter-spacing: 1px;
+    max-width: 458px;
+    width: 100%;
 }
 
 .hero_btn_list {
@@ -171,4 +191,57 @@ body {
     display: inline-block;
     margin-bottom: -4px;
     padding-left: 4px;
+}
+
+/*tools seciton*/
+
+.tools_section {
+    padding-top: 111px;
+}
+
+.tools_title {
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+    letter-spacing: 1px;
+    max-width: 539px;
+    margin: 0 auto;
+    padding-bottom: 54px;
+    }
+
+.tools_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.tools_list_item {
+    width: 100%;
+    max-width: 240px;
+}
+
+.tools_img_item {
+    margin-bottom: 30px;
+}
+
+.tools_list_title {
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.tools_list_text {
+    line-height: 26px;
+    color: #544837;
+    letter-spacing: 1px;
+}
+
+.tools_btn {
+    text-align: center;
+}
+
+.tools_btn_sign {
+    text-transform: uppercase;
+    padding: 15px 33px;
 }
